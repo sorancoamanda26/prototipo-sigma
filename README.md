@@ -1,1 +1,1 @@
-# prototipo-figma
+# prototipo-sigma
