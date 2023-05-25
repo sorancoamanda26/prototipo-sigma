@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.equipe-imagem{
+    width: 25%;
+}
+
+.equipe{
+    background-image: linear-gradient(black,white);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.equipe-div-conteudo{
+    width: 35%;
+}
+
+
+.equipe-titulo{
+    padding: 24px 0;
+}
+
+.jogador{
+    padding: 24px 0;
+}
+.jogador-imagem{
+    width: 120px;
+}
+
+.jogador-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.jogador-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.jogador-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.jogador-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
